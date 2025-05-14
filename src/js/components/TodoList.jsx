@@ -82,7 +82,7 @@ const TodoList = () => {
                 <form onSubmit={handleSubmit}>
                     <input type="text" value={task} onChange={e => setTask(e.target.value)} />
                     <input type="submit" hidden />
-                    <button className="create-task-btn" onClick={createTask}>Create task</button>
+                    <button className="create-task-btn" type="submit">Create task</button>
                 </form>
                 <div>
                     <ul>
