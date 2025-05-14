@@ -76,7 +76,7 @@ const TodoList = () => {
     }
 
     return (
-        <body>
+        <div>
             <div className='text-center'>
                 <h1>Guarda y elimina tus tareas</h1>
                 <form onSubmit={handleSubmit}>
@@ -94,7 +94,7 @@ const TodoList = () => {
                     </ul>
                 </div>
             </div>
-        </body>
+        </div>
 
     );
 };
